@@ -1,3 +1,9 @@
 ollama
 faiss-cpu
-sentence_transformers
+numpy
+sentence-transformers
+tensorflow
+tf-keras
+keras==2.14
+transformers
+tk

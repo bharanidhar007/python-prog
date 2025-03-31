@@ -1,4 +1,5 @@
 #pip install ollama faiss-cpu numpy sentence-transformers tkinter
+#model atleast need 6-gb ram
 
 import ollama  # AI Model (Mistral)
 import os  # File handling
