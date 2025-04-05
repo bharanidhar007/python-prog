@@ -40,7 +40,7 @@ def ask_question():
         f"Text:\n{context_text.get('1.0', tk.END).strip()}\n\n"
         f"Question: {question}"
     )
-
+#gemma:2b model is used.it is lightweight
     try:
         response = ollama.chat(model='gemma:2b', messages=[{"role": "user", "content": prompt}])
         answer_text.config(state=tk.NORMAL)
